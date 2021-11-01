@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <script src="https://www.gstatic.com/firebasejs/8.2.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.8/firebase-database.js"></script>
+    <script> // Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyCzClwnB6R9vl_MsrLgOovITmKRp-UWKos",
+  authDomain: "hotairballon-be8eb.firebaseapp.com",
+  databaseURL: "https://hotairballon-be8eb-default-rtdb.firebaseio.com",
+  projectId: "hotairballon-be8eb",
+  storageBucket: "hotairballon-be8eb.appspot.com",
+  messagingSenderId: "787418395618",
+  appId: "1:787418395618:web:4a14e9a2ee8f6d99a23fbb"
+};
+      // Initialize Firebase
+       firebase.initializeApp(firebaseConfig);</script>
+ 
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+
+    <!-- Firebase SDK CODE ADD BELOW -->
+
+   
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
